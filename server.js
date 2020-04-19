@@ -27,6 +27,6 @@ io.sockets.on('connection',(socket) => {
    });
 });
 
-app.get('/', (req, res, next) => {
+app.get('/', (req, res) => {
    res.sendFile(__dirname + '/index.html');
 });
